@@ -9,8 +9,8 @@ public class Anagrams_FreqTable {
         String a = scan.next();
         String b = scan.next();
         scan.close();
-        boolean t =isAnagram(a, b);
-        System.out.println((t)?"Anagrams":"Not Anagrams");
+        boolean ter =isAnagram(a, b);
+        System.out.println((ter)?"Anagrams":"Not Anagrams");
 
 
     }
